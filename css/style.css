@@ -16,7 +16,22 @@ h1,h2,h3,h4,h5,h6,p{
     width: 1148px;
     margin: 0 auto;
 }
-
+.sec_subtitle{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: normal;
+    text-transform: uppercase;
+    color: #000000;
+}
+.sec_title{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: normal;
+    text-transform: uppercase;
+    color: #036E8A;
+}
 /* ====== Navbar Section Style Start ====== */
 #navbar{
     padding: 15px 0;
@@ -70,6 +85,13 @@ h1,h2,h3,h4,h5,h6,p{
     color: #036E8A;
     font-size: 8px;
 }
+.paragraph{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.3;
+    color: #FFF;
+}
 /* ====== Navbar Section Style End ====== */
 
 
@@ -95,12 +117,7 @@ h1,h2,h3,h4,h5,h6,p{
     text-transform: uppercase;
     color: #FFFFFF;
 }
-.banner_wrapper p{
-    font-family: "Montserrat", sans-serif;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 1.3;
-    color: #FFF;
+.banner_wrapper .paragraph{
     margin-top: 24px;
 }
 .form_inner{
@@ -151,3 +168,124 @@ h1,h2,h3,h4,h5,h6,p{
     justify-content: center;
 }
 /* ====== Banner Section Style End ====== */
+
+/* ====== Destination Section Style Start ====== */
+#destination{
+    padding-top: 148px;
+    padding-bottom: 90px;
+}
+.destination_wrapper{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 80px;
+}
+.destination_content{
+    width: 560px;
+}
+.destination_content .sec_title{
+    margin-top: 31px;
+}
+.destination_content .paragraph{
+    color: #000000;
+    margin-top: 30px;
+}
+.destination_video{
+    width: 508px;
+    height: 369px;
+    border-radius: 25px;
+    overflow: hidden;
+    position: relative;
+}
+.destination_video img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.destination_video_icon{
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    background: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(-50%, -50%);
+}
+.destination_video_icon i{
+    color: #036E8A;
+    font-size: 22px;
+}
+.book_now{
+    margin-top: 70px;
+    padding: 54px 64px 50px 64px;
+    border: 2px solid #036E8A;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.book_now_btn{
+    padding: 16px 45px;
+    background: #FF8000;
+    color: #FFF;
+    border-radius: 15px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.location_price{
+    display: flex;
+    column-gap: 166px;
+}
+.location_price .location{
+    position: relative;
+}
+.location_price .location::after{
+    position: absolute;
+    content: "";
+    top: 10px;
+    right: -80px;
+    width: 4px;
+    height: 96px;
+    background: #FF8000;
+}
+.location_price .location h4{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: normal;
+    text-transform: uppercase;
+    color: #036E8A;
+}
+.star_wrapper{
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+    margin-top: 14px;
+}
+.star_wrapper i{
+    color: #FF8000;
+}
+.star_wrapper i:last-child{
+    opacity: 0.5;
+}
+.location_price .price .paragraph{
+    color: #000000;
+}
+.location_price .price span{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: normal;
+    color: #036E8A;
+}
+/* ====== Destination Section Style End ====== */
+
+/* ====== Package Section Style Start ====== */
+/* ====== Package Section Style End ====== */

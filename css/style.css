@@ -504,12 +504,14 @@ h1,h2,h3,h4,h5,h6,p{
     bottom: 30px;
 }
 .gal_item_inner .overlay h3{
+    font-family: "Montserrat", sans-serif;
     font-weight: 700;
     font-size: 25px;
     line-height: normal;
     color: #707070;
 }
 .gal_item_inner .overlay h6{
+    font-family: "Montserrat", sans-serif;
     font-weight: 400;
     font-size: 20px;
     line-height: normal;
@@ -525,3 +527,34 @@ h1,h2,h3,h4,h5,h6,p{
     transform: translateX(-50%);
 }
 /* ====== Gallery Section Style End ====== */
+
+/* ====== Counter Section Style End ====== */
+#counter{
+    padding: 90px 0 120px 0;
+    background-image: url(../images/counter.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.counter_wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.counter_item{
+    width: 22%;
+}
+.counter_item h3{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: normal;
+    color: #707070;
+}
+.counter_item span{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: normal;
+    color: #707070;
+}
+/* ====== Counter Section Style End ====== */
